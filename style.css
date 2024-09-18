@@ -1,0 +1,38 @@
+body{
+    background-color: rgba(227, 85, 255, 0.74);
+}
+.wrapper{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.copy-icon{
+    position: absolute;
+    padding-left: 11rem;
+    vertical-align: baseline;
+    
+}
+.form-check{
+    text-align: left;
+}
+.form-group{
+    display: flex;
+}
+.indicator{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.strength{
+    display: flex;
+    justify-content: space-between;
+}
+
+.visually-hidden{
+    width: 18rem;
+}
+    
