@@ -1,8 +1,9 @@
-body{
-    
-}
+
+
 .wrapper{
-   
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(82, 1, 255, 1) 50%, rgba(238, 130, 238, 1) 100%);
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,4 +36,61 @@ body{
 .visually-hidden{
     width: 18rem;
 }
+.card{
+    background-color: blueviolet;
+}
+.dot {
+    height: 17px;
+    width: 17px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .check{
+    text-align: left;
+  }
+  .text{
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:550;
+  }
+ h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight:800;
+ }
+ .display{
+    width: 20rem;
+    height: 2.5rem;
+    background-color: yellow;
     
+ }
+ .card{
+    max-width: 23rem;
+    height: 20hv;
+    background-color: rgba(216, 180, 246, 0.652);
+ }
+ .check{
+    color: black;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .slider{
+    width: 20rem;
+ }
+ .generateButton{
+    width: 22rem;
+    height: 3rem;
+    background-color: rgba(69, 255, 246, 0.771);
+    color: black;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+ }
+ .bttn{
+    padding-right: 80rem;
+ }
